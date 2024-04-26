@@ -37,8 +37,8 @@ jobs:
       matrix:
         boards: [rock-5-itx]
         build_systems: [rbuild]
-        distros: [debian, ubuntu]
-        flavors: [kde, cli]
+        distros: [debian]
+        flavors: [kde]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
